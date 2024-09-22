@@ -1,0 +1,175 @@
+@font-face {
+    font-family: qs;
+    src: url(font.ttf);
+}
+
+body{
+    font-family: qs;
+    background-image: url("");
+    background-size: cover;
+}
+
+.idk{
+    /* position: fixed; */
+    top: 20px;
+    font-size: 25px;
+    border-bottom: 2px gray solid;
+}
+
+/* mainBar */
+.mainBar{
+    margin-left: 0px;
+    right: 0px;
+    top: 0px;
+    /* position: fixed; */
+    display: flex;
+    padding: 10px 10px;
+    background-color: lightcoral;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px lightgray;
+}
+.mainBar button{
+    /* text-decoration: none; */
+    /* margin-right: 0px; */
+    /* text-align: center; */
+    color: whitesmoke;
+    font-family: qs;
+    padding: 10px 10px;
+    background-color: lightcoral;
+    border: transparent;
+    transition-duration: 0.2s;
+    border-radius: 100px;
+}
+.mainBar button:hover{
+    background-color: whitesmoke;
+    color: lightcoral;
+    transition-duration: 0.2s;
+}
+.mainBar b{
+    font-weight: normal;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px lightgray;
+}
+.mainBar .trans{
+    color: transparent;
+    user-select: none;
+    text-shadow: none;
+}
+/* .mainBar a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 100px;
+    transition-duration: 0.15s;
+}
+.mainBar a:hover{
+    background-color: whitesmoke;
+    color:lightsalmon;
+    transition-duration: 0.15s;
+    box-shadow: 1px 1px 10px gray;
+} */
+.mainBar img{
+    width: 20px;
+    height: auto;
+}
+
+/* random_ */
+.nah{
+    display: flex;
+    padding: 10px;
+}
+.random{
+    top: 120px;
+    /* position: fixed; */
+    /* width: 210px; */
+    /* width: rem; */
+    height: auto;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 0.1s;
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.random img{
+    width: 100px;
+    height: auto;
+}
+.random a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* contact */
+.contact{
+    background-color: lightgrey;
+    /* padding: 0px 0px; */
+    position: fixed;
+    bottom: 0px;
+    left: -1px;
+    right: -1px;
+    border: 1px grey solid;
+}
+.contact img{
+    width: 20px;
+    height: auto;
+}
+.contact a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    font-size: 15px;
+    transition-duration: 0.2s;
+}
+.contact a:hover{
+    transition-duration: 0.2s;
+    font-size: 20px;
+}
+.contact p{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: normal;
+    text-shadow: 2px 2px 8px gray;
+}
+
+/* left center right nah*/
+
+.nah{
+    display: flex;
+    height: auto;
+}
+.left{
+    /* flex: 1; */
+    padding-right: 20px;
+    /* background-color: whitesmoke; */
+    left: 0px;
+    text-align: center;
+}
+.left a{
+    text-decoration: none;
+    color: lightcoral;
+    /* padding: 10px 100px; */
+    margin-top: 5px;
+    /* background-color: whitesmoke; */
+    transition-duration: 0.2s;
+}
+.left a:hover{
+    font-size: 20px;
+    transition-duration: 0.2s;
+}
+
+.left div{
+    background-color: whitesmoke;
+    padding: 10px 50px;
+}
+.center{
+    flex: 3;
+    border-left: 2px gray solid;
+    background-color: whitesmoke;
+    height: 25cm;
+    padding: 10px 10px;
+}

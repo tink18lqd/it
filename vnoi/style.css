@@ -1,0 +1,105 @@
+@font-face {
+    font-family: qs;
+    src: url(font.ttf);
+}
+body{
+    font-family: qs;
+}
+
+/* mainBar */
+.mainBar{
+    background-color: lightcoral;
+    padding: 10px 10px;
+    display: flex;
+}
+.mainBar button{
+    /* text-decoration: none; */
+    /* margin-right: 0px; */
+    /* text-align: center; */
+    color: whitesmoke;
+    font-family: qs;
+    padding: 10px 10px;
+    background-color: lightcoral;
+    border: 0px;
+    transition-duration: 0.2s;
+    border-radius: 100px;
+}
+.mainBar button:hover{
+    background-color: whitesmoke;
+    color: lightcoral;
+    transition-duration: 0.2s;
+}
+.mainBar img{
+    width: 20px;
+    height: auto;
+}
+
+.mainBar .login_{
+    margin-right: 0px;
+}
+.mainBar b{
+    font-weight: normal;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px lightgray;
+}
+
+/* left center right nah*/
+
+.nah{
+    margin-top: 10px;
+    display: flex;
+    height: auto;
+}
+.left{
+    /* flex: 1; */
+    padding-right: 200px;
+    /* background-color: whitesmoke; */
+    left: 0px;
+    text-align: center;
+}
+.left a{
+    text-decoration: none;
+    color: lightcoral;
+    /* padding: 10px 100px; */
+    margin-top: 5px;
+    /* background-color: whitesmoke; */
+    transition-duration: 0.2s;
+}
+.left a:hover{
+    font-size: 20px;
+    transition-duration: 0.2s;
+}
+
+.left div{
+    background-color: whitesmoke;
+    padding: 10px 50px;
+}
+.center{
+    flex: 3;
+    border-left: 2px gray solid;
+    background-color: whitesmoke;
+    height: 25cm;
+    padding: 10px 10px;
+}
+
+/* a1 */
+.a1{
+    top: 120px;
+    /* position: fixed; */
+    /* width: 210px; */
+    /* width: rem; */
+    height: auto;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 0.1s;
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.a1 a{
+    text-decoration: none;
+    font-size: 15px;
+}
